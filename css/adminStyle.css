@@ -1,0 +1,63 @@
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.nav-sidebar{
+	margin: 30px -20px 20px 20px;
+}
+.nav-sidebar>li>a{
+	padding: 20px 20px;
+}
+.main{
+	margin-top: 50px;
+	padding: 20px;
+}
+.placeholders{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.placeholder{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.placeholder img{
+	display: inline;
+	border-radius: 50%;
+}
+hr{
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+.sidebar .nav-sidebar .nav-item a{
+	font-size: 14px;
+	color: rgba(50, 50, 50, 0.7);
+	padding: 20px;
+}
+.sidebar .nav-sidebar .nav-item a:hover{
+	background-color: #eee;
+	box-sizing: border-box;
+}
+footer{
+	text-align: center;
+	background-color: lightgray;
+	padding: 10px;
+}
+
+@media (max-width:576px){
+	.sidebar .nav-sidebar{
+		display: inline-block;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
